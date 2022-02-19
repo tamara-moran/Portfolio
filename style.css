@@ -1,0 +1,39 @@
+* { 
+	margin: 0;
+	padding: 0;
+} 
+body {
+    background-color: #f0e6e6;
+    font-family: 'Neue Haas Display', sans-serif;
+    color: #131520;
+    font-size: 16px;
+    line-height: 1.5;
+} 
+.nombre{
+    margin: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+.descrip{
+    margin: 3%;
+    font-size: 20px;
+}
+.sDeveloper{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+    background-color: #242f44;
+    z-index: 5;
+  }

@@ -5,7 +5,7 @@
 } 
 body {
     background-color: #f0e6e6;
-    font-family: Didot;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #131520;
     font-size: 16px;
     line-height: 1.5;
@@ -46,9 +46,13 @@ nav a{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 5%;
 }
 .pUnderline{
     text-align: center;
+    margin-top: 0px;
 }
 .underline{
     width: 25%;
@@ -59,7 +63,7 @@ nav a{
 }
 .fondoDeveloper{
     text-align: center;
-    background-color:#4c4d72;
+    background-color:#696ba3;
     
 }
 footer {
@@ -71,4 +75,57 @@ footer {
     z-index: 5;
     color: #f0e6e6;
 
+}
+.aboutMe{
+    background-color:darkslateblue;
+    padding-bottom: 10pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: #f0e6e6;
+    text-align: left;
+    padding: 30px;
+}
+.aboutMe p{
+    border-radius: 3px;
+    padding: 15px;
+    margin: 3%;
+    border-style: solid;
+    border-color: beige;
+    background-color:rgb(170, 208, 243) ;
+    font-weight: bold;
+
+}
+.spaceInvaders{
+    width: 6%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.foundMe{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+    height: 20%;
+}
+a{
+    text-decoration: none;
+    vertical-align: middle;
+}
+.td1{
+    width: auto;
+}
+.td2{
+    width:60%;
+    
+}
+.linkedin{
+    width: 14%;
+}
+.github{
+    text-align: left;
+    width: 12%;
+}
+.posicionGitHub{
+    text-align: left;
+    margin-left: 0px;
 }

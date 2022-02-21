@@ -8,7 +8,15 @@ body {
     color: #131520;
     font-size: 16px;
     line-height: 1.5;
-} .comienzo{
+} 
+header{
+    text-align: right;
+    margin: 03%;
+}
+nav a{
+    margin: 10px;
+}
+.comienzo{
     display:table-cell;
     width: 100%;
     list-style: bold;
@@ -20,27 +28,36 @@ body {
     width:auto ;
     padding-left: 30%;
 }
-.tdPerfil{
+.pPerfil{
     margin: 10%;
     display: table-cell;
     text-align: right;
-    position:relative;
-    left: 90%;
+    padding-right: 120px;
+    
 }
 .imgPerfil{
-
-   position: fixed;
-   left: 70%;
+    width: 10%;
 }
-.sDeveloper{
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-
+.descrip{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pUnderline{
+    text-align: center;
+}
+.underline{
+    width: 25%;
+}
+.sdeveloper{
+    width: 80%;
+    margin: 2%;
+}
+.fondoDeveloper{
+    text-align: center;
+    background-color: #242f44;
+    
+    
 }
 footer {
     margin-top: 50px;

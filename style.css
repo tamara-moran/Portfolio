@@ -8,15 +8,29 @@ body {
     color: #131520;
     font-size: 16px;
     line-height: 1.5;
-} 
-.nombre{
-    margin: 10%;
-    font-size: 30px;
-    text-align: center;
+} .comienzo{
+    display:table-cell;
+    width: 100%;
+    list-style: bold;
 }
-.descrip{
-    margin: 3%;
-    font-size: 20px;
+.nombre{
+    margin: 60%;
+    font-size: 40px;
+    text-align: center;
+    width:auto ;
+    padding-left: 30%;
+}
+.tdPerfil{
+    margin: 10%;
+    display: table-cell;
+    text-align: right;
+    position:relative;
+    left: 90%;
+}
+.imgPerfil{
+
+   position: fixed;
+   left: 70%;
 }
 .sDeveloper{
     width: 100%;

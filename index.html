@@ -3,18 +3,26 @@
     <head>
         <title>Tamara Morán</title>
         <link rel="stylesheet" href="style.css"/>
+        <script type = "text/javascript">
+            var imgObj = null;
+               
+              
+               window.onload = init;
+            
+         </script>
+        
     
     </head>
     <body>
         <header>
             <nav>
-                <a href="">Inicio</a>
+                <a href="#inicio">Inicio</a>
                 <a href="#aboutMe">About me</a>
-                <a href="">Proyects</a>
-                <a href="">Contact</a>
+                <a href="#redes">Social media</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
-        <div class="portada">
+        <div id="inicio" class="portada">
             <table class="comienzo">
                 <tr>
                     <td>
@@ -24,7 +32,8 @@
                     </td>
                     <td >
                         <p class="pPerfil">
-                            <img class="imgPerfil" src="./profile.png" alt="perfil"/>
+                            <img id="perfil" class="imgPerfil" src="./profile.png" alt="perfil" onmouseover=""/>
+                            
                         </p>
                     </td>
                 </tr>
@@ -48,7 +57,7 @@
             </ul>
             
         </div>
-        <div class="foundMe">
+        <div id="redes" class="foundMe">
             <h1>Found me</h1>
             <p><a href=""><img class="linkedin" src="./linkedin.png"/></a>  <a href="">Tamara Morán Gafo</a> </p>
             <p><a href=""><img class="github" src="./github.png" /></a><a href="">Tamara-moran</a>  </p>
@@ -57,7 +66,7 @@
         </div>
        
     </body>
-    <footer>
+    <footer id="contact">
         <p>Datos de contacto: Tamara Morán Gafo | <a href="mailto:tamaramorangafo@gmail.com">tamaramorangafo@gmail.com</span></p>
 
         

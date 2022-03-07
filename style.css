@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
+    width: auto;
     font-family: sans-serif;
     cursor: default;
     -webkit-user-select: none;
@@ -34,64 +35,67 @@ a:hover{
     color: cadetblue;
 }
 
-.comienzo{
-    display:table-cell;
-    width: 100%;
-    padding-top: 10%;
+.inicio{
+    display: inline-flex;
+    width: auto;
 }
 .nombre{
     margin-top: 20%;
     font-size: 90px;
-    text-align: center;
-    width:auto ;
+    text-align: left;
     padding-left: 30%;
 }
-.pPerfil{
-    margin-left: 400px;
-    text-align: right;
-    margin-right: 0;
-   
-}
 .imgPerfil{
-    width: 40%;
+    width: 20%;
+    height: 20%;
+    margin-top: 20%;
+    margin-left: 90%;
 }
 .descrip{
     text-align: center;
-    margin-top: 0;
+    margin-top: 5%;
 }
 
 .aboutMe{
-    
-    padding: 130px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*
-    background-color:darkslateblue;
-    background-image: url('./border.png');
-    background-repeat: no-repeat;
-    background-size: 1000px;
-    background-position: 20%;*/
-
+    display: block;
+    height: auto;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-spacing: 0;
 }
+
 h1{
     text-align: center;
-    padding-bottom: 70px;
-    padding-left: 40px;
-    
+}
+h2{
+    text-align: center;
 }
 ul{
     list-style-type: none;     
 }
-li{
-    border-radius: 100px;
-    padding: 15px;
-    margin: 3%;
-    width: 100%;
-    font-size: 30px;
-    /*border-style: solid;
-    border-color: beige;
-    background-color:rgb(170, 208, 243) ;*/
-    font-weight: bold;
+.technology{
+    width: 50%;
+    background-color: #54a3ee;
+    display: table-cell;
+    overflow:auto;
 }
-.tecnologias{
+.communicative{
+    width: 50%;
+    background-color:darksalmon;
+    display: table-cell;
+    overflow:auto;
+
+}
+
+.languages{
+    background-color: mediumturquoise;
+    text-align: center;
+}
+.listadoLenguajes{
+    padding-left: 30%;
+    padding-right: 30%;
     border-spacing: 50px;
 }
 .java{
@@ -101,11 +105,13 @@ li{
     width: 80px;
 }
 .spaceInvaders{
+    src: "./resources/spaceInvaders.png";
+    alt: "Icon";
     width: 6%;
     vertical-align: middle;
     margin-right: 20px;
 }
-.foundMe{
+.findMe{
     padding-top: 10%;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

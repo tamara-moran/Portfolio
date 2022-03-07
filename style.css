@@ -3,7 +3,7 @@
     padding: 0px;
     border: 0px;
     width: auto;
-    font-family: sans-serif;
+    font-family: Goudy Old Style;
     cursor: default;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #f0e6e6;
+    background-color:floralwhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #131520;
     font-size: 20px;
@@ -54,16 +54,21 @@ a:hover{
 .descrip{
     text-align: center;
     margin-top: 5%;
+    padding-bottom: 10%;
 }
 
 .aboutMe{
     display: block;
     height: auto;
     text-align: center;
-    margin-top: 0;
+    margin-top:0;
     padding-left: 10%;
     padding-right: 10%;
     border-spacing: 0;
+}
+.aboutMe th{
+    text-align: center;
+    font-size: 60px;
 }
 
 h1{
@@ -77,20 +82,20 @@ ul{
 }
 .technology{
     width: 50%;
-    background-color: #54a3ee;
+    background-color:antiquewhite;
     display: table-cell;
     overflow:auto;
 }
 .communicative{
     width: 50%;
-    background-color:darksalmon;
+    background-color:#EEE ;
     display: table-cell;
     overflow:auto;
 
 }
 
 .languages{
-    background-color: mediumturquoise;
+    background-color:lightsteelblue;
     text-align: center;
 }
 .listadoLenguajes{

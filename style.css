@@ -54,7 +54,6 @@ a:hover{
 .descrip{
     text-align: center;
     margin-top: 5%;
-    padding-bottom: 10%;
 }
 
 .contenido{
@@ -80,23 +79,27 @@ h2{
 ul{
     list-style-type: none;     
 }
-.technology{
+.bgAntiqueWhite{
     width: 50%;
     background-color:antiquewhite;
     display: table-cell;
     overflow:auto;
 }
-.communicative{
+.bgGrisMuyClaro{
     width: 50%;
     background-color:#EEE ;
     display: table-cell;
     overflow:auto;
 
 }
-
-.languages{
+.bgGrisAzul{
     background-color:lightsteelblue;
-    text-align: center;
+}
+.bgRosaClaro{
+    background-color: pink;
+}
+article{
+    padding-top: 200px;
 }
 .listadoLenguajes{
     padding-left: 30%;
@@ -111,12 +114,14 @@ ul{
     width: 80px;
 }
 figure{
-    height: 300px;
+    height: auto;
 }
-
+.proyectos{
+    width: 45%;
+    padding-top: 20px;
+}
 .contenido figure img:hover{
-    padding:10%;
-    width: 10%;
+    width: 30%;
 }
 .findMe{
     padding-top: 10%;

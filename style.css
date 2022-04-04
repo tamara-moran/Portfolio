@@ -1,16 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 0px;
-    width: auto;
-    font-family: Goudy Old Style;
-    cursor: default;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
-
 body {
     background-color:floralwhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -36,8 +27,8 @@ a:hover{
 }
 
 .inicio{
-    display: inline-flex;
-    width: auto;
+    vertical-align: middle;
+    padding: 15%;
 }
 .nombre{
     margin-top: 20%;

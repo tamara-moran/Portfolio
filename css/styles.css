@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     min-height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -121,9 +122,11 @@ main .contenedor-texto{
     padding-right: 10%;
     border-spacing: 0;
 }
+
 td{
     padding: 5%;
 }
+
 .contenido th{
     text-align: center;
     font-size: 60px;
@@ -132,29 +135,34 @@ td{
 h1{
     text-align: center;
 }
+
 h2{
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 ul{
     list-style-type: none;
     font-style: normal;
     font-size: 20px;   
     font-weight: lighter; 
 }
+
 p{
     list-style-type: none;
     font-style: normal;
     font-size: 20px;   
     font-weight: lighter; 
 }
+
 .bgThistle{
     width: 50%;
     background-color:thistle;
     display: table-cell;
     overflow:auto;
 }
+
 .bgCornFlower{
     width: 50%;
     background-color:cornflowerblue ;
@@ -162,9 +170,11 @@ p{
     overflow:auto;
 
 }
+
 .bgGrisAzul{
     background-color:lightsteelblue;
 }
+
 .bgRosaClaro{
     background-color: pink;
 }
@@ -174,6 +184,7 @@ p{
     padding-right: 20%;
     border-spacing: 50px;
 }
+
 .java{
     width: 80px;
     

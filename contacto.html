@@ -1,27 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Tamara Morán</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="aboutme.html">About me</a>
-                <a href="projects.html">Projects</a>
-                <a href="#redes">Social media</a>
-                <a href="contacto.html">Contact</a>
-            </nav>
-        </header>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Tamara Morán</title>
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+     <div class="contenedor">
+          <header>
+               
+               <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="socialMedia.html">Social media</a>
+                    <a href="contacto.html">Contact</a>
+               </nav>
+          </header>
 
-        <!-- Formulario de contacto -->
+          <main>
+        
+           <div class="contenido-img">
+            <form action="archivo_recepcion.php" method="post" name="formularioContacto">
 
-       <footer >
-        <p>Datos de contacto: Tamara Morán Gafo | <a href="mailto:tamaramorangafo@gmail.com">tamaramorangafo@gmail.com</span></p>        
-    </footer>
-    </body>
+                <table>
+                    <caption><h3>Formulario de contacto</h3></caption>
 
-    
-    
+                    <tr>
+                        <td ><p><label>Nombre:</label></p></td>
+                        <td ><p><input type="text" name="nombre" placeholder="Nombre" autofocus autocomplete="off"></p></td>
+                    </tr>
+
+                    <tr>
+                        <td ><p><label>Apellidos:</label></p></td>
+                        <td ><p><input type="text" name="apellidos" placeholder="Apellidos" autocomplete="off"></p></td>
+                    </tr>
+                        
+                    <tr>
+                        <td ><p><label>Correo electrónico:</label></p></td>
+                        <td ><p><input type="email" name="correo" placeholder="xxxxxxxxx@xxxxx.xxx" required></p></td>
+                    </tr>
+                        
+                    <tr>
+                        <td ><p><label>Suscribirse a la recepción de correo:</label></p></td>
+                        <td ><p><input type="checkbox" name="recepción"></p></td>
+                    </tr>
+
+                    <tr>
+                        <td ><p><label>Acepta las condiciones de uso: </label></p></td>
+                        <td ><p><input type="checkbox" name="condicionesdeUso"></p></td>
+                    </tr>
+
+                    <tr>
+                        <td ><p><label>Escriba su mensaje:  </label></p></td>
+                        <td><p><input type="text" name="texto"></p></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><p class=boton><input type="reset" name="resetear" value="Resetear"> <input type="submit" name="enviar" value="Enviar"></p></td>
+                    </tr>
+
+                </table>
+            </form>
+               
+        </div> 
+          </main>
+     </div>
+</body>
 </html>

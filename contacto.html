@@ -6,7 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Tamara Morán</title>
      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-     <link rel="stylesheet" href="./css/styles.css">
+     <link rel="stylesheet" href="./css/styleForm.css">
 </head>
 <body>
     <div class="contenedor">
@@ -21,13 +21,13 @@
                </nav>
         </header>
 
-        <body id="form">
+        <main >
         
             <div >
                 <form action="archivo_recepcion.php" method="post" name="formularioContacto">
 
                     <table>
-                        <caption><h3>Formulario de contacto</h3></caption>
+                        <th><h3>Formulario de contacto</h3></th>
 
                         <tr>
                             <td ><p><label>Nombre:</label></p></td>
@@ -54,9 +54,9 @@
                             <td ><p><input type="checkbox" name="condicionesdeUso"></p></td>
                         </tr>
 
-                        <tr>
+                        <tr class="mensaje">
                             <td ><p><label>Escriba su mensaje:  </label></p></td>
-                            <td><p><input type="text" name="texto"></p></td>
+                            <td><p><input type="text" name="texto" ></p></td>
                         </tr>
 
                         <tr>
@@ -67,8 +67,6 @@
                 </form>
                
             </div> 
-        
-        </body>
      </div>
 </body>
 </html>

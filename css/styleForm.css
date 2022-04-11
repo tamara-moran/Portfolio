@@ -132,8 +132,27 @@ main {
     
 }
 td{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 h3{
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+}
+.mensaje input{
+    height: 200px;
+    width: 400px;
+}
+.mensaje label{
+    vertical-align: top;
+}
+.boton input{
+    margin-left: 500px ;
+    border: none ;
+    font-size: 22px;
+    margin-left: 40px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton input:hover {
+    border-bottom: 2px solid #f2c968;
 }

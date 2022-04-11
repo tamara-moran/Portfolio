@@ -130,6 +130,7 @@ td{
 .contenido th{
     text-align: center;
     font-size: 60px;
+ 
 }
 
 h1{
@@ -144,16 +145,13 @@ h2{
 
 ul{
     list-style-type: none;
-    font-style: normal;
-    font-size: 20px;   
-    font-weight: lighter; 
+    font-size: 20px;    
 }
 
-p{
-    list-style-type: none;
-    font-style: normal;
-    font-size: 20px;   
-    font-weight: lighter; 
+.certificates li{
+    text-align: left ;
+    font-stretch: condensed;
+    line-height: 30px;
 }
 
 .bgThistle{
@@ -179,20 +177,19 @@ p{
     background-color: pink;
 }
 
-.listadoLenguajes{
+.technologies{
     padding-left: 20%;
     padding-right: 20%;
     border-spacing: 50px;
 }
 
-.java{
+.technologies img{
     width: 80px;
     
 }
-.mysql{
-    width: 80px;
+.technologies td{
+    text-align: center;
 }
-
 .proyectos{
     width: 45%;
     padding-top: 20px;
@@ -228,18 +225,3 @@ a{
     width: 400px;
 
 }
-
-body #form {
-    margin-left: 25%;
-    align-items: center;
-    
-}
-
-#form td{
-    padding-bottom: 20px;
-}
-
-#form h3{
-    padding-bottom: 30px;
-}
-

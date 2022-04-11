@@ -229,3 +229,17 @@ a{
 
 }
 
+body #form {
+    margin-left: 25%;
+    align-items: center;
+    
+}
+
+#form td{
+    padding-bottom: 20px;
+}
+
+#form h3{
+    padding-bottom: 30px;
+}
+
